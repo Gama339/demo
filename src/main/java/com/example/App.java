@@ -1,7 +1,3 @@
-//récupére nombre d'heures travailées
-//récupére le taux horaire
-// calculer le salaire brut ( taux horaire * nombre d'heures travailées)
-// afficher le salaire brut
 package com.example;
 
 public class App {
@@ -13,3 +9,4 @@ public class App {
     }
 
 }
+
