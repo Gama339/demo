@@ -23,4 +23,10 @@ public class exso2 {
 
 }
 
-//cour du 21/09/2026 B1
+// Cour du 21/09/2026 B1
+// Exercice 2 : Ecrire un programme : utilisation de if & else 
+// Note <= 5 : Rouge   
+// Note >= 6 et <= 10 : jaune
+// Note >= 11 et <= 15 : Vert
+// Note > 15 : Vert+
+
