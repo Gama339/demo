@@ -9,6 +9,7 @@ public class exso3 {
         int salaireAnnuel = Clavier.nextInt();
         System.out.println("entrer votre nombre d'années de travail: ");
         int nombreAnneesTravail = Clavier.nextInt();
+        Clavier.close();
         if (salaireAnnuel >= 30000 && nombreAnneesTravail >=2) {
             System.out.println("prêt accorder");
         }

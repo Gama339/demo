@@ -7,6 +7,7 @@ public class exso2 {
         Scanner Clavier = new Scanner(System.in);
         System.out.println("entrer la note : ");
         int note = Clavier.nextInt();
+        Clavier.close();
         if(note <= 5){
             System.out.println("Rouge");
         }
