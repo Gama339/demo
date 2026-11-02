@@ -6,10 +6,10 @@ public class exso6 {
     public static void main(String[] args) throws Exception {
         Scanner Clavier = new Scanner(System.in);
         for (int i = 1; i <= 4; i++) {
-            int cumuleDesNotes = 0;
+            double cumuleDesNotes = 0;
             for (int NbNote = 1; NbNote <= 2; NbNote++) {
                 System.out.println("entrer votre note  : ");
-                int note = Clavier.nextInt();
+                double note = Clavier.nextDouble();
                 cumuleDesNotes += note;
             }
 
