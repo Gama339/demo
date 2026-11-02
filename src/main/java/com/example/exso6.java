@@ -6,16 +6,21 @@ public class exso6 {
     public static void main(String[] args) throws Exception {
         Scanner Clavier = new Scanner(System.in);
         for (int i = 1; i <= 4; i++) {
-            System.out.println("entrer votre note 1 : ");
-            int note1 = Clavier.nextInt();
-            System.out.println("entrer votre note 2 : ");
-            int note2 = Clavier.nextInt();
-            int cumuleDesNotes = note1 + note2;
+            int cumuleDesNotes = 0;
+            for (int NbNote = 1; NbNote <= 2; NbNote++) {
+                System.out.println("entrer votre note  : ");
+                int note = Clavier.nextInt();
+                cumuleDesNotes += note;
+            }
+
             double moyenne = cumuleDesNotes / 2.0;
             System.out.println("la moyenne de l'étudiant " + i + " est : " + moyenne);
+
+            
         }
-        Clavier.close(); 
+        Clavier.close();
     }
+    
 }
 
 // alogorithme
