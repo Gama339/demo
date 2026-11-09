@@ -20,7 +20,7 @@ public class exso6 {
         }
         Clavier.close();
     }
-    
+
 }
 
 // alogorithme
